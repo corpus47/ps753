@@ -55,7 +55,7 @@ $i = 1;
 //var_dump($pows);
 //exit;
 
-for($i = 0;$i < 1000; $i++){
+for($i = 0;$prime < 1000; $i++){
     testPrime($i);
 }
 
