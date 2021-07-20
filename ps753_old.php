@@ -4,7 +4,7 @@
 /*
 * Require: php-gmp
 */
-DEFINE('MAXPRIME',500);
+DEFINE('MAXPRIME',100);
 
 $db = 0;
 
@@ -72,6 +72,8 @@ function testPrime($number) {
     }
 
 }
+
+echo 'Maxprime: ' . MAXPRIME;
 
 for($i = 0;$prime < MAXPRIME; $i++){
     testPrime($i);
